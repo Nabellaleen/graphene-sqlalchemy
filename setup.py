@@ -47,5 +47,6 @@ setup(
     keywords="api graphql protocol rest relay graphene",
     packages=find_packages(exclude=["tests"]),
     install_requires=requirements,
+    setup_requires=["pytest-runner"],
     tests_require=["pytest>=2.7.2", "mock", "sqlalchemy_utils"],
 )
