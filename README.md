@@ -122,5 +122,5 @@ python setup.py install
 After developing, the full test suite can be evaluated by running:
 
 ```sh
-python setup.py test # Use --pytest-args="-v -s" for verbose mode
+python setup.py test # Use --addopts="-v -s" for verbose mode
 ```
